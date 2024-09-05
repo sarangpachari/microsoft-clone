@@ -1,0 +1,10 @@
+*{
+    font-family: "Segoe UI", "Helvetica Neue", Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+footer{
+    background: #F2F2F2;
+    color: #616161;
+}

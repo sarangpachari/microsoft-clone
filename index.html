@@ -19,10 +19,19 @@
       href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css"
       rel="stylesheet"
     />
+
+    <!-- FONT AWESOME CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <!-- NAVBAR -->
-    <nav class="bg-white border-gray-200">
+    <nav id="home" class="bg-white border-gray-200">
       <div class="max-w-full flex flex-wrap justify-between items-center p-4">
         <a
           href="https://www.microsoft.com/en-in"
@@ -164,16 +173,24 @@
               class="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
-            <div class="absolute top-[100%] md:top-0 h-full w-full md:w-1/2 md:flex md:justify-center md:items-center">
+            <div
+              class="absolute top-[100%] md:top-0 h-full w-full md:w-1/2 md:flex md:justify-center md:items-center"
+            >
               <div class="bg-white flex flex-col gap-5 md:max-w-lg p-12">
                 <p class="bg-[#FFB900] w-fit px-3 py-1 font-semibold">New</p>
                 <p class="md:text-4xl text-2xl font-semibold">
                   Meet Surface Pro
                 </p>
                 <p class="text-base font-normal">
-                  This laptop's unrivalled flexibility and AI features like Live Captions and Cocreator, enable you to do more than you ever imagined.
+                  This laptop's unrivalled flexibility and AI features like Live
+                  Captions and Cocreator, enable you to do more than you ever
+                  imagined.
                 </p>
-                <button class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2">Learn more</button>
+                <button
+                  class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2"
+                >
+                  Learn more
+                </button>
               </div>
             </div>
           </div>
@@ -184,16 +201,26 @@
               class="absolute block w-full h-full object-cover -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2"
               alt="..."
             />
-            <div class="absolute top-[100%] md:top-0 h-full w-full md:w-1/2 md:flex md:justify-center md:items-center">
-              <div class=" bg-white md:bg-transparent flex flex-col gap-5 md:max-w-lg p-12">
-                <p class="text-black md:text-white md:text-4xl text-2xl font-semibold">
+            <div
+              class="absolute top-[100%] md:top-0 h-full w-full md:w-1/2 md:flex md:justify-center md:items-center"
+            >
+              <div
+                class="bg-white md:bg-transparent flex flex-col gap-5 md:max-w-lg p-12"
+              >
+                <p
+                  class="text-black md:text-white md:text-4xl text-2xl font-semibold"
+                >
                   Call of Duty®: Black Ops 6
                 </p>
                 <p class="text-black md:text-white text-base font-normal">
                   Pre-order now or join Game Pass and get early access to the
                   Beta. Terms apply.
                 </p>
-                <button class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2">Pre-order or join Game Pass</button>
+                <button
+                  class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2"
+                >
+                  Pre-order or join Game Pass
+                </button>
               </div>
             </div>
           </div>
@@ -224,7 +251,7 @@
           data-carousel-prev
         >
           <span
-            class="hidden md:inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50  group-focus:ring-4 group-focus:ring-white group-focus:outline-none"
+            class="hidden md:inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none"
           >
             <svg
               class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
@@ -271,29 +298,36 @@
           </span>
         </button>
       </div>
-      <div id="default-carousel" class="md:hidden relative w-full" data-carousel="slide">
+      <div
+        id="default-carousel"
+        class="md:hidden relative w-full"
+        data-carousel="slide"
+      >
         <!-- Carousel wrapper -->
-        <div class="relative overflow-hidden h-80">
+        <div class="relative overflow-hidden h-96">
           <!-- Item 1 -->
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
             <div class="h-full w-full flex justify-center items-center">
-              <div class="bg-white flex flex-col gap-5 p-12">
+              <div class="bg-white flex flex-col gap-5 px-12 py-0">
                 <p class="bg-[#FFB900] w-fit px-3 py-1 font-semibold">New</p>
-                <p class="text-2xl font-semibold">
-                  Meet Surface Pro
-                </p>
+                <p class="text-2xl font-semibold">Meet Surface Pro</p>
                 <p class="text-base font-normal">
-                  This laptop's unrivalled flexibility and AI features like Live Captions and Cocreator, enable you to do more than you ever imagined.
+                  This laptop's unrivalled flexibility and AI features like Live
+                  Captions and Cocreator, enable you to do more than you ever
+                  imagined.
                 </p>
-                <button class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2">Learn more</button>
+                <button
+                  class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2"
+                >
+                  Learn more
+                </button>
               </div>
             </div>
           </div>
           <!-- Item 2 -->
           <div class="hidden duration-700 ease-in-out" data-carousel-item>
-           
             <div class="h-full w-full flex justify-center items-center">
-              <div class=" bg-white flex flex-col gap-5 p-12">
+              <div class="bg-white flex flex-col gap-5 p-12">
                 <p class="text-black text-2xl font-semibold">
                   Call of Duty®: Black Ops 6
                 </p>
@@ -301,7 +335,11 @@
                   Pre-order now or join Game Pass and get early access to the
                   Beta. Terms apply.
                 </p>
-                <button class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2">Pre-order or join Game Pass</button>
+                <button
+                  class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2"
+                >
+                  Pre-order or join Game Pass
+                </button>
               </div>
             </div>
           </div>
@@ -332,7 +370,7 @@
           data-carousel-prev
         >
           <span
-            class="hidden md:inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50  group-focus:ring-4 group-focus:ring-white group-focus:outline-none"
+            class="hidden md:inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none"
           >
             <svg
               class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180"
@@ -381,7 +419,442 @@
       </div>
     </div>
 
-    
+    <!-- HOME SECTION 2 -->
+    <div
+      class="flex flex-wrap justify-center items-center gap-20 w-full px-5 py-20"
+    >
+      <div class="flex flex-col gap-3 justify-center items-center">
+        <img src="images/home-icon-1.svg" class="h-10" alt="" />
+        <a href="" class="underline text-[#0067B8] font-semibold"
+          ><p>Choose your Microsoft 365</p></a
+        >
+      </div>
+      <div class="flex flex-col gap-3 justify-center items-center">
+        <img src="images/home-icon-2.svg" class="h-10" alt="" />
+        <a href="" class="underline text-[#0067B8] font-semibold"
+          ><p>Shop Xbox</p></a
+        >
+      </div>
+      <div class="flex flex-col gap-3 justify-center items-center">
+        <img src="images/home-icon-3.svg" class="h-10" alt="" />
+        <a href="" class="underline text-[#0067B8] font-semibold"
+          ><p>Get Windows 11</p></a
+        >
+      </div>
+      <div class="flex flex-col gap-3 justify-center items-center">
+        <img src="images/home-icon-4.svg" class="h-10" alt="" />
+        <a href="" class="underline text-[#0067B8] font-semibold"
+          ><p>Explore Surface devices</p></a
+        >
+      </div>
+    </div>
+
+    <!-- HOME SECTION 3 -->
+    <div class="">
+      <!-- CARD CONTAINER -->
+      <div class="flex flex-wrap justify-center items-center p-5 gap-8">
+        <!-- CARD -->
+        <div class="lg:w-80 shadow-xl h-full">
+          <!-- CARD IMAGE -->
+          <img src="images/home-section-3-1.avif" class="" alt="" />
+
+          <!-- CARD TEXT -->
+          <div class="flex flex-col gap-3 max-w-72 p-5">
+            <p class="text-3xl font-semibold">
+              Maximise the everyday with Microsoft 365
+            </p>
+            <p>
+              Get online protection, secure cloud storage and innovative apps
+              designed to fit your needs – all in one plan.
+            </p>
+            <button
+              class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2"
+            >
+              For one person
+            </button>
+            <a href="" class="hover:underline text-[#0067B8] font-semibold"
+              ><p>For up to six people</p></a
+            >
+          </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="lg:w-80 shadow-xl h-full">
+          <!-- CARD IMAGE -->
+          <img src="images/home-section-3-2.avif" class="" alt="" />
+
+          <!-- CARD TEXT -->
+          <div class="flex flex-col gap-3 max-w-72 p-5">
+            <p class="text-3xl font-semibold">Xbox Series X</p>
+            <p>The fastest, most powerful Xbox ever.</p>
+            <button
+              class="bg-[#0067B8] max-w-fit mt-36 text-white font-semibold px-4 py-2"
+            >
+              Shop Xbox Series X
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="lg:w-80 shadow-xl h-full">
+          <!-- CARD IMAGE -->
+          <img src="images/home-section-3-3.webp" class="" alt="" />
+
+          <!-- CARD TEXT -->
+          <div class="flex flex-col gap-3 max-w-72 p-5">
+            <p class="text-3xl font-semibold">Xbox Series S</p>
+            <p>Next-gen performance in the smallest Xbox ever.</p>
+            <button
+              class="bg-[#0067B8] max-w-fit mt-36 text-white font-semibold px-4 py-2"
+            >
+              Shop Xbox Series S
+            </button>
+          </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="lg:w-80 shadow-xl h-full">
+          <!-- CARD IMAGE -->
+          <img src="images/home-section-3-4.avif" class="" alt="" />
+
+          <!-- CARD TEXT -->
+          <div class="flex flex-col gap-3 max-w-72 p-5">
+            <p class="text-3xl font-semibold">Xbox Game Pass Ultimate</p>
+            <p>
+              Play new games on day one. Plus, enjoy hundreds of high-quality
+              games with friends on console and PC.
+            </p>
+            <button
+              class="bg-[#0067B8] max-w-fit mt-14 text-white font-semibold px-4 py-2"
+            >
+              Join now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOME SECTION 4 -->
+    <div class="p-5 h-[30rem] sm:h-[35rem] md:h-[38rem]">
+      <div class="relative">
+        <img src="images/home-section-4.avif" alt="" />
+        <div
+          class="absolute top-full lg:top-0 lg:w-1/3 w-full flex justify-center lg:items-center h-full"
+        >
+          <div class="flex flex-col gap-5 lg:px-10 p-5">
+            <p class="text-4xl font-semibold">
+              Unlock your potential with Microsoft Copilot
+            </p>
+            <p>
+              Get things done faster and unleash your creativity with the power
+              of AI anywhere you go.
+            </p>
+            <button
+              class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2"
+            >
+              Download the Copilot app
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOME SECTION 5 - BUSINESS -->
+    <div class="p-5">
+      <div class="flex flex-col">
+        <!-- CONTAINER HEADING -->
+        <div class="m-10">
+          <p class="text-4xl font-semibold">For Business</p>
+        </div>
+        <!-- CARDS CONTAINER -->
+        <div class="w-full flex flex-wrap gap-10 justify-evenly items-center">
+          <!-- CARD -->
+          <div class="max-w-80 shadow-xl h-[30rem]">
+            <img src="images/business-1.avif" alt="" />
+            <!-- CARD BODY -->
+            <div class="max-w-72 flex flex-col gap-5 p-5">
+              <!-- CARD TEXT -->
+              <div class="flex flex-col gap-3">
+                <p class="text-2xl font-semibold">Surface for Business</p>
+                <p>
+                  No matter what you do, there’s a Surface to help you do it.
+                </p>
+              </div>
+              <!-- CARD BUTTON -->
+              <div>
+                <button
+                  class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD -->
+          <div class="max-w-80 shadow-xl h-[30rem]">
+            <img src="images/business-2.avif" alt="" />
+            <!-- CARD BODY -->
+            <div class="max-w-72 flex flex-col gap-5 p-5">
+              <!-- CARD TEXT -->
+              <div class="flex flex-col gap-3">
+                <p class="text-2xl font-semibold">
+                  Get Microsoft Teams for your business
+                </p>
+                <p>
+                  Online meetings, chat, real-time collaboration, and shared
+                  cloud storage – all in one place.
+                </p>
+              </div>
+              <!-- CARD BUTTON -->
+              <div>
+                <button
+                  class="bg-[#0067B8] max-w-fit text-white text-left font-semibold px-4 py-2"
+                >
+                  Find the right plan for your business
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD -->
+          <div class="max-w-80 shadow-xl h-[30rem]">
+            <img src="images/business-3.jpg" alt="" />
+            <!-- CARD BODY -->
+            <div class="max-w-72 flex flex-col gap-5 p-5">
+              <!-- CARD TEXT -->
+              <div class="flex flex-col gap-3">
+                <p class="text-2xl font-semibold">Windows 11 for business</p>
+                <p>
+                  Designed for hybrid work. Powerful for employees. Consistent
+                  for IT. Secure for all.
+                </p>
+              </div>
+              <!-- CARD BUTTON -->
+              <div>
+                <button
+                  class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2"
+                >
+                  Learn more
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- CARD -->
+          <div class="max-w-80 shadow-xl h-[30rem]">
+            <img src="images/business-4.avif" alt="" />
+            <!-- CARD BODY -->
+            <div class="max-w-72 flex flex-col gap-5 p-5">
+              <!-- CARD TEXT -->
+              <div class="flex flex-col gap-3">
+                <p class="text-2xl font-semibold">Copilot for Microsoft 365</p>
+                <p>
+                  Save time and focus on the things that matter most with AI in
+                  Microsoft 365 for business.
+                </p>
+              </div>
+              <!-- CARD BUTTON -->
+              <div>
+                <button
+                  class="bg-[#0067B8] max-w-fit text-white font-semibold px-4 py-2"
+                >
+                  Learn more
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- HOME SECTION 6 - FOLLOW -->
+    <div class="p-10">
+      <div class="flex gap-5">
+        <p class="text-lg">Follow Microsoft</p>
+        <i class="fa-brands fa-facebook-f fa-2x" style="color: #000000"></i>
+        <i class="fa-brands fa-x-twitter fa-2x" style="color: #000000"></i>
+        <i class="fa-brands fa-youtube fa-2x" style="color: #000000"></i>
+      </div>
+    </div>
+
+    <!-- BACK-TO-TOP BUTTON -->
+    <div class="w-full flex justify-end p-5">
+      <a href="#home"
+        ><button
+          class="sticky top-0 bg-gray-300 px-2 py-2 hover:bg-white rounded-sm transition-all"
+        >
+          <i class="fa-solid fa-arrow-up" style="color: #000000"></i> Back to
+          Top
+        </button></a
+      >
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="p-5">
+      <!-- FOOTER CONTAINER -->
+      <div class="flex flex-wrap md:justify-around gap-7 p-5">
+        <!-- FOOTER SECTION 1 -->
+        <div class="flex flex-col gap-3">
+          <p class="text-base font-medium">What's new</p>
+          <a href=""><p class="hover:underline text-xs">Surface Pro</p></a>
+          <a href=""><p class="hover:underline text-xs">Surface Laptop</p></a>
+          <a href=""
+            ><p class="hover:underline text-xs">Microsoft Copilot</p></a
+          >
+          <a href=""><p class="hover:underline text-xs">Microsoft 365</p></a>
+          <a href=""
+            ><p class="hover:underline text-xs">
+              Explore Microsoft products
+            </p></a
+          >
+          <a href=""><p class="hover:underline text-xs">Windows 11 apps</p></a>
+        </div>
+
+        <!-- FOOTER SECTION 2 -->
+        <div class="flex flex-col gap-3">
+          <p class="text-base font-medium">Microsoft Store</p>
+          <a href=""><p class="hover:underline text-xs">Account profile</p></a>
+          <a href=""><p class="hover:underline text-xs">Download Center</p></a>
+          <a href=""
+            ><p class="hover:underline text-xs">Microsoft Store Support</p></a
+          >
+          <a href=""><p class="hover:underline text-xs">Returns</p></a>
+          <a href=""><p class="hover:underline text-xs">Order tracking</p></a>
+        </div>
+
+        <!-- FOOTER SECTION 3 -->
+        <div class="flex flex-col gap-3">
+          <p class="text-base font-medium">Education</p>
+          <a href=""
+            ><p class="hover:underline text-xs">Microsoft in education</p></a
+          >
+          <a href=""
+            ><p class="hover:underline text-xs">Devices for education</p></a
+          >
+          <a href=""
+            ><p class="hover:underline text-xs">
+              Microsoft Teams for Education
+            </p></a
+          >
+          <a href=""
+            ><p class="hover:underline text-xs">Microsoft 365 Education</p></a
+          >
+          <a href=""><p class="hover:underline text-xs">Office Education</p></a>
+          <a href=""
+            ><p class="hover:underline text-xs">
+              Educator training and development
+            </p></a
+          >
+          <a href=""
+            ><p class="hover:underline text-xs">
+              Deals for students and parents
+            </p></a
+          >
+          <a href=""
+            ><p class="hover:underline text-xs">Azure for students</p></a
+          >
+        </div>
+
+        <!-- FOOTER SECTION 4 -->
+        <div class="flex flex-col gap-3">
+          <p class="text-base font-medium">Business</p>
+          <a href=""><p class="hover:underline text-xs">Microsoft Cloud</p></a>
+          <a href=""
+            ><p class="hover:underline text-xs">Microsoft Security</p></a
+          >
+          <a href=""><p class="hover:underline text-xs">Azure</p></a>
+          <a href=""><p class="hover:underline text-xs">Dynamics 365</p></a>
+          <a href=""><p class="hover:underline text-xs">Microsoft 365</p></a>
+          <a href=""
+            ><p class="hover:underline text-xs">Microsoft Advertising</p></a
+          >
+          <a href=""
+            ><p class="hover:underline text-xs">Copilot for Microsoft 365</p></a
+          >
+          <a href=""><p class="hover:underline text-xs">Microsoft Teams</p></a>
+        </div>
+
+        <!-- FOOTER SECTION 5 -->
+        <div class="flex flex-col gap-3">
+          <p class="text-base font-medium">Developer & IT</p>
+          <a href=""><p class="hover:underline text-xs">Developer Center</p></a>
+          <a href=""><p class="hover:underline text-xs">Documentation</p></a>
+          <a href=""><p class="hover:underline text-xs">Microsoft Learn</p></a>
+          <a href=""
+            ><p class="hover:underline text-xs">Microsoft Tech Community</p></a
+          >
+          <a href=""
+            ><p class="hover:underline text-xs">Azure Marketplace</p></a
+          >
+          <a href=""><p class="hover:underline text-xs">AppSource</p></a>
+          <a href=""
+            ><p class="hover:underline text-xs">Microsoft Power Platform</p></a
+          >
+          <a href=""><p class="hover:underline text-xs">Visual Studio</p></a>
+        </div>
+
+        <!-- FOOTER SECTION 6 -->
+        <div class="flex flex-col gap-3">
+          <p class="text-base font-medium">Company</p>
+          <a href=""><p class="hover:underline text-xs">Careers</p></a>
+          <a href=""><p class="hover:underline text-xs">About Microsoft</p></a>
+          <a href=""><p class="hover:underline text-xs">Company news</p></a>
+          <a href=""
+            ><p class="hover:underline text-xs">Privacy at Microsoft</p></a
+          >
+          <a href=""><p class="hover:underline text-xs">Investors</p></a>
+          <a href=""><p class="hover:underline text-xs">Security</p></a>
+          <a href=""><p class="hover:underline text-xs">Sustainability</p></a>
+        </div>
+      </div>
+
+      <!-- BOTTOM SECTION -->
+      <div class="flex flex-wrap justify-between gap-5 p-5">
+        <div class="flex flex-wrap gap-5">
+          <div class="flex gap-2">
+            <i class="fa-solid fa-earth-americas" style="color: #808080"></i>
+            <a href=""
+              ><p class="hover:underline text-xs">English (India)</p></a
+            >
+          </div>
+          <div class="">
+            <a href=""
+              ><p class="hover:underline text-xs">Your Privacy Choices</p></a
+            >
+          </div>
+          <div class="">
+            <a href=""
+              ><p class="hover:underline text-xs">Consumer Health Privacy</p></a
+            >
+          </div>
+        </div>
+        <div class="flex flex-wrap gap-5">
+          <div class="">
+            <a href=""
+              ><p class="hover:underline text-xs">Contact Microsoft</p></a
+            >
+          </div>
+          <div class="">
+            <a href=""><p class="hover:underline text-xs">Privacy</p></a>
+          </div>
+          <div class="">
+            <a href=""><p class="hover:underline text-xs">Terms of use</p></a>
+          </div>
+          <div class="">
+            <a href=""><p class="hover:underline text-xs">Trademarks</p></a>
+          </div>
+          <div class="">
+            <a href=""><p class="hover:underline text-xs">About our ads</p></a>
+          </div>
+          <div class="">
+            <a href=""
+              ><p class="hover:underline text-xs">© Microsoft 2024</p></a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
 
     <!--FLOWBITE JS CDN  -->
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
